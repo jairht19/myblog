@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog';
+  toggleSide(e) {
+    const target: HTMLElement = e.target;
+    console.log(target);
+  }
 }
+
